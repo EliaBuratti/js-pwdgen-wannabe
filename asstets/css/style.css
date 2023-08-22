@@ -2,6 +2,8 @@ h1 {
     color: cornflowerblue;
 }
 
-p {
+#your_psw {
     color: crimson;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
