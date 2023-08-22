@@ -18,8 +18,11 @@ const userSurname = prompt("Qual' è il tuo cognome?");
 //colore
 const userFavCol = prompt("Qual'è il tuo colore preferito?");
 
+//chiave
+const key = prompt('Inserisci un numero');
+
 //numero generato in base alla lunghezza del testo
-const num = (userName + userSurname + userFavCol).length;
+const num = ((userName + userSurname + userFavCol + key).length) + Number(key);
 
 //genero una costante con il testo finale
 const pwd = ('La tua password sicurissima è:' + ' ' + userName + userSurname + userFavCol + num );
